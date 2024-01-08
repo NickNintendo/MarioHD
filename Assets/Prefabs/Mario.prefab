@@ -10,7 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1173442652531143055}
   - component: {fileID: 9097807895720523961}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Small
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -96,9 +96,9 @@ GameObject:
   - component: {fileID: 2088954583728236405}
   - component: {fileID: 6799354554290358679}
   - component: {fileID: 7526237468854224925}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Mario
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -194,6 +194,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fb110a7f3cf8d9f41bf8360fd4163785, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  moveSpeed: 8
+  maxJumpHeight: 5
+  maxJumpTime: 1
 --- !u!1 &7208836778893135516
 GameObject:
   m_ObjectHideFlags: 0
@@ -204,7 +207,7 @@ GameObject:
   m_Component:
   - component: {fileID: 5206725178587694839}
   - component: {fileID: 1982174287493030465}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Big
   m_TagString: Untagged
   m_Icon: {fileID: 0}
